@@ -1,2 +1,8 @@
 body {
-  color: blue; }
+  height: 1703px;
+  width: 1024px; }
+
+.navBarWrap {
+  width: 100vw;
+  height: 91px;
+  background-color: gray; }
