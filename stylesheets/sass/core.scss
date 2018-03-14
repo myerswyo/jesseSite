@@ -94,7 +94,9 @@ body {
   text-align: center;
   background:url('imgs/screenshot.png') no-repeat;
   background-position: center;
-  // background-size: cover;
+  // position: relative;
+  // top: 300px;
+  background-size: contain;
   // align-items: center;
 }
 
@@ -117,7 +119,8 @@ body {
   background:url('imgs/quotescreen.png') no-repeat;
   background-position: center;
   margin: -50px 0 0 0;
-  
+  padding: 100px;
+
  // background-size: cover;
   // align-items: center;
 
