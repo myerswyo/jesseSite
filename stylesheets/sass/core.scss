@@ -91,6 +91,10 @@ body {
   background-color: white;
   display: flex;
   justify-content: center;
+  text-align: center;
+  background:url('imgs/screenshot.png') no-repeat;
+  background-position: center;
+  // background-size: cover;
   // align-items: center;
 }
 
@@ -102,3 +106,108 @@ body {
   color: #3166AC;
   top: 50px;
 }
+
+.quoteWrap {
+  width: 100vw;
+  height: 510px;
+  // background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background:url('imgs/quotescreen.png') no-repeat;
+  background-position: center;
+  margin: -50px 0 0 0;
+  
+ // background-size: cover;
+  // align-items: center;
+
+}
+// .featureIcon {
+//   width: 350px;
+//   height: 185px;
+//   // left: 100px;
+//   background-color: lightblue;
+//   display: flex;
+//   font-family: "Lucida Grande";
+//   // text-align: center;
+//   flex-flow: row;
+// }
+//
+// .iconWrap {
+//   width: 150px;
+//   height: 185px;
+//   background-color: black;
+//   justify-content: flex-start;
+//
+// }
+//
+// //IDS
+//
+// #inst {
+//   position: absolute;
+//   top: 700px;
+//   left: 200px;
+//   background:url('imgs/instantUpdate.png') no-repeat;
+//
+// }
+//
+// #airport {
+//   position: absolute;
+//   top: 700px;
+//   left: 900px;
+//   background:url('imgs/airplane.png') no-repeat;
+// }
+//
+// #gps {
+//   position: absolute;
+//   top: 900px;
+//   left: 200px;
+//   background:url('imgs/gpsIcon.png') no-repeat;
+// }
+//
+// #treasure {
+//   position: absolute;
+//   top: 900px;
+//   left: 900px;
+//   background:url('imgs/treasureIcon.png') no-repeat;
+// }
+
+
+
+
+// crap i might need --- >
+// <div class="header2">
+// <h2>Features</h2>
+//
+// </div>
+//
+// <!-- instant updates -->
+//
+// <div class="featureIcon" id="inst">
+//   <h2>INSTANT UPDATES</h2>
+//   <span>Receive notifications for newly accessible terrain.</span>
+//   <!-- <div class="iconWrap" id="inst">
+//   </div> -->
+// </div>
+//
+// <!-- GPS coordinates -->
+// <div class="featureIcon">
+//   <h2>CLOSEST AIRPORT</h2>
+//   <span>Plan a trip with ease and book a flight in a minute.</span>
+//   <div class="iconWrap" id="airport">
+//   </div>
+// </div>
+//
+// <!-- closest airports -->
+// <div class="featureIcon">
+//   <h2>GPS COORDINATES</h2>
+//   <span>Generates coordinates and maps out exact location.</span>
+//   <div class="iconWrap" id="gps">
+//   </div>
+// </div>
+//
+// <!-- potential treasure -->
+// <div class="featureIcon" id="treasure">
+//   <h2>POTENTIAL TREASURES</h2>
+//   <span>Generates an ongoing list of undiscovered treasures.</span>
+//   </div>

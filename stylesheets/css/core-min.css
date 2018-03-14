@@ -74,7 +74,10 @@ body {
   height: 510px;
   background-color: white;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center;
+  background: url("imgs/screenshot.png") no-repeat;
+  background-position: center; }
 
 .header2 {
   position: relative;
@@ -83,3 +86,13 @@ body {
   font-family: "Avenir Next";
   color: #3166AC;
   top: 50px; }
+
+.quoteWrap {
+  width: 100vw;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: url("imgs/quotescreen.png") no-repeat;
+  background-position: center;
+  margin: -50px 0 0 0; }
